@@ -1,0 +1,12 @@
+# npm package
+node_modules
+
+# log
+*.log
+
+# test
+test
+
+.env
+
+output.*

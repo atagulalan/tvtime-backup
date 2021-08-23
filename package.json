@@ -1,0 +1,20 @@
+{
+  "name": "tvtime-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backup.js",
+  "scripts": {
+    "dev": "nodemon --ignore '*.json' parser.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backup": "node backup",
+    "generate": "node backup"
+  },
+  "keywords": [],
+  "author": "atagulalan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "tablemark": "^2.0.0",
+    "tvtime-api": "github:atagulalan/tvtime-api"
+  }
+}
